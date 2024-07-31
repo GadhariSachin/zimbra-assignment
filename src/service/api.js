@@ -1,5 +1,16 @@
 const BASE_URL = "http://localhost:3000";
 
+export const fetchCategories = async () => {
+  try {
+    const res = await fetch(`${BASE_URL}/categories`);
+    const resJson = await res.json();
+
+    return resJson;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 export const fetchProducts = async () => {
   try {
     const res = await fetch(`${BASE_URL}/products`);
