@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Laptops"
+    },
+    {
+      "id": 2,
+      "name": "Mobiles"
+    },
+    {
+      "id": 3,
+      "name": "Speakers"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lenovo",
+      "imageUrl": "https://img.lovepik.com/element/45012/8521.png_860.png",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Mac",
+      "imageUrl": "https://img.lovepik.com/element/45012/8521.png_860.png",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Dell",
+      "imageUrl": "https://img.lovepik.com/element/45012/8521.png_860.png",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Iphone 14",
+      "imageUrl": "https://png.pngtree.com/png-vector/20211231/ourmid/pngtree-white-3d-simulation-mobile-phone-png-png-image_4069597.png",
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy Z",
+      "imageUrl": "https://png.pngtree.com/png-vector/20211231/ourmid/pngtree-white-3d-simulation-mobile-phone-png-png-image_4069597.png",
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Motorolla Edge",
+      "imageUrl": "https://png.pngtree.com/png-vector/20211231/ourmid/pngtree-white-3d-simulation-mobile-phone-png-png-image_4069597.png",
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Lenovo Thinkpad",
+      "imageUrl": "https://img.lovepik.com/element/45012/8521.png_860.png",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "name": "Sony",
+      "imageUrl": "https://img.freepik.com/free-vector/realistic-black-speaker-group-background_52683-10365.jpg",
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "name": "Boat",
+      "imageUrl": "https://img.freepik.com/free-vector/realistic-black-speaker-group-background_52683-10365.jpg",
+      "categoryId": 3
+    }
+  ],
+  "productDetails": {
+    "id": 1,
+    "name": "Lenovo",
+    "imageUrl": "https://img.lovepik.com/element/45012/8521.png_860.png",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Lorem Ipsum.",
+    "categoryId": 1
+  }
+}
