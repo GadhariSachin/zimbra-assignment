@@ -2,11 +2,20 @@ import "./ProductList.css";
 
 import { useNavigate } from "react-router-dom";
 
+/**
+ * @function ProductList
+ * @description Renders a list of product cards. Each card displays an image and name of a product and navigates to the product's detail page when clicked.
+ * @param {Object[]} productsList - An array of product objects to be displayed as cards. Each product object should have an `id`, `imageUrl`, and `name`.
+ * @returns {JSX.Element} The rendered product list component.
+ */
+
 // eslint-disable-next-line react/prop-types
 const ProductList = ({ productsList = [] }) => {
   const navigate = useNavigate();
 
-  // Take user to product detail page
+  /**
+   * Navigates to the product detail page for the selected product.
+   */
   const onProductCardClick = (productId) => {
     navigate(`/product/${productId}`);
   };

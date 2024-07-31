@@ -1,5 +1,12 @@
 import "./ProductDetails.css";
 
+/**
+ * @function ProductDetails
+ * @description Renders the details of a product including its image, name, and description.
+ * @param {Object} product - The product object containing details to be displayed.
+ * @returns {JSX.Element} The rendered product details component.
+ */
+
 // eslint-disable-next-line react/prop-types
 const ProductDetails = ({ product = {} }) => {
   return (

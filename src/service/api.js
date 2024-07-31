@@ -1,5 +1,8 @@
 const BASE_URL = "http://localhost:3000";
 
+/**
+ * Fetches the list of product categories from the API.
+ */
 export const fetchCategories = async () => {
   try {
     const res = await fetch(`${BASE_URL}/categories`);
@@ -11,6 +14,9 @@ export const fetchCategories = async () => {
   }
 };
 
+/**
+ * Fetches the list of products from the API.
+ */
 export const fetchProducts = async () => {
   try {
     const res = await fetch(`${BASE_URL}/products`);
@@ -22,6 +28,9 @@ export const fetchProducts = async () => {
   }
 };
 
+/**
+ * Fetches the details of a specific product from the API using the product ID.
+ */
 // eslint-disable-next-line no-unused-vars
 export const fetchProductDetails = async (productId) => {
   try {
